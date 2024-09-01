@@ -3,7 +3,7 @@ JSON5 to JSON
 
 |DockerHub| |GitLab| |GitHub| |Bitbucket| |Gitea|
 
-A simple container wrapper for `json5-to-json <https://crates.io/crates/json5-to-json>`__ crate.
+A simple container wrapper for the `json5-to-json <https://crates.io/crates/json5-to-json>`__ crate.
 
 Usage
 =====
@@ -24,7 +24,9 @@ or
 License
 =======
 
-The library is available as open source under the terms of the `MIT No Attribution License`_.
+The image build script is available under the terms of the `MIT No Attribution License`_.
+
+The original CLI tool is licensed under the `ISC License <https://github.com/callum-oakley/json5-to-json/blob/master/LICENCE>`__.
 
 .. _MIT No Attribution License: https://opensource.org/license/MIT-0
 
