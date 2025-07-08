@@ -1,4 +1,4 @@
-# Docker image for json5-to-json
+# JSON5 to JSON
 
 [![Docker]][Docker Link]
 
