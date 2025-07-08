@@ -2,7 +2,7 @@
 
 [![Docker]][Docker Link]
 
-A simple container wrapper for [json5-to-json](https://crates.io/crates/json5-to-json) crate.
+A simple CLI container to convert [JSON5](https://json5.org) to JSON.
 
 ## Usage
 
@@ -33,7 +33,7 @@ Feel free to ask any questions in our room on Gitter: <https://gitter.im/arokett
 
 The image build script is available under the terms of the [MIT No Attribution][License Link].
 
-The original CLI tool is licensed under the [ISC License](https://github.com/callum-oakley/json5-to-json/blob/master/LICENCE).
+The original lib is licensed under the [MIT License](https://github.com/colinodell/json5/blob/main/LICENSE.md>).
 
 [Docker]: https://img.shields.io/docker/v/arokettu/json5-to-json?style=flat-square
 

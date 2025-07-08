@@ -1,0 +1,8 @@
+{
+    "name": "arokettu/docker-json5-to-json",
+    "license": "MIT-0",
+    "require": {
+        "php": "~8.4.0",
+        "colinodell/json5": "^3.0"
+    }
+}

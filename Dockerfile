@@ -1,5 +1,12 @@
-FROM rust:1.80-slim
+FROM composer:latest AS packages
 
-RUN cargo install json5-to-json
+ADD composer.json composer.lock /build/
+WORKDIR /build
+RUN composer install
 
-ENTRYPOINT ["/usr/local/cargo/bin/json5-to-json"]
+FROM php:8.4-cli-alpine
+
+COPY --from=packages /build/vendor/ /app/vendor/
+ADD json5.php /app/
+
+ENTRYPOINT ["/app/json5.php"]

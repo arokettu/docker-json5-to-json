@@ -1,9 +1,11 @@
 JSON5 to JSON
 #############
 
-|DockerHub| |GitLab| |GitHub| |Bitbucket| |Gitea|
+|DockerHub| |GitLab| |GitHub| |Codeberg| |Gitea|
 
-A simple container wrapper for the `json5-to-json <https://crates.io/crates/json5-to-json>`__ crate.
+A simple CLI container to convert JSON5_ to JSON.
+
+.. _JSON5: https://json5.org
 
 Usage
 =====
@@ -26,7 +28,7 @@ License
 
 The image build script is available under the terms of the `MIT No Attribution License`_.
 
-The original CLI tool is licensed under the `ISC License <https://github.com/callum-oakley/json5-to-json/blob/master/LICENCE>`__.
+The original lib is licensed under the `MIT License <https://github.com/colinodell/json5/blob/main/LICENSE.md>`__.
 
 .. _MIT No Attribution License: https://opensource.org/license/MIT-0
 
@@ -36,7 +38,7 @@ The original CLI tool is licensed under the `ISC License <https://github.com/cal
    :target:     https://github.com/arokettu/docker-json5-to-json
 .. |GitLab|     image:: https://img.shields.io/badge/get%20on-GitLab-informational.svg?style=flat-square&logo=gitlab
    :target:     https://gitlab.com/sandfox/docker-json5-to-json
-.. |Bitbucket|  image:: https://img.shields.io/badge/get%20on-Bitbucket-informational.svg?style=flat-square&logo=bitbucket
-   :target:     https://bitbucket.org/sandfox/docker-json5-to-json
+.. |Codeberg|   image:: https://img.shields.io/badge/get%20on-Codeberg-informational.svg?style=flat-square&logo=codeberg
+   :target:     https://codeberg.org/sandfox/docker-json5-to-json
 .. |Gitea|      image:: https://img.shields.io/badge/get%20on-Gitea-informational.svg?style=flat-square&logo=gitea
    :target:     https://sandfox.org/sandfox/docker-json5-to-json
