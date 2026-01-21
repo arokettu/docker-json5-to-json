@@ -4,8 +4,10 @@ JSON5 to JSON
 |DockerHub| |GitLab| |GitHub| |Codeberg| |Gitea|
 
 A simple CLI container to convert JSON5_ to JSON.
+The current implementation is based on `colinodell/json5`_.
 
 .. _JSON5: https://json5.org
+.. _colinodell/json5: https://packagist.org/packages/colinodell/json5
 
 Usage
 =====

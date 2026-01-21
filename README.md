@@ -3,6 +3,7 @@
 [![Docker]][Docker Link]
 
 A simple CLI container to convert [JSON5](https://json5.org) to JSON.
+The current implementation is based on [colinodell/json5](https://packagist.org/packages/colinodell/json5).
 
 ## Usage
 
